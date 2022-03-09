@@ -111,6 +111,9 @@ video{
     background-repeat: no-repeat;
     background-blend-mode: color-burn;
 }
+.filter:hover{
+    transform: scale(1.1);
+}
 
 .orange {
     background-color: #ffa50052;
@@ -146,4 +149,5 @@ video{
 }
 .gallery:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
